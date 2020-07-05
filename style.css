@@ -148,6 +148,7 @@ h1 span {
 }
 
 .date {
+    flex-shrink: 0;
     margin-right: 5px;
     width: 30%;
     font-weight: bold;
