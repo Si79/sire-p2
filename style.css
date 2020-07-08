@@ -18,7 +18,6 @@ h2, h3, p, ul {
 /*CONTENU*/
 #menu {
     display: flex;
-    padding-bottom: 20px;
     overflow: hidden;
 }
 
@@ -156,7 +155,7 @@ h1 span {
 
 .where {
     margin-top: 3px;
-    width: 70%;
+    width: 100%;
 }
 
 .where h4 {
