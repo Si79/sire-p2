@@ -19,6 +19,7 @@ h2, h3, p, ul {
 #menu {
     display: flex;
     overflow: hidden;
+    flex-direction: column-reverse;
 }
 
 /*BLOC DE GAUCHE*/
@@ -188,7 +189,7 @@ h1 span {
 }
 
 /*POUR TABLETTE MOBILE*/
-@media screen and (max-width: 680px) {
+@media (max-width: 679px) {
     header {
         flex-direction: column;
     }
@@ -200,7 +201,7 @@ h1 span {
     }
 
     #menu {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     #menu_left {
@@ -241,7 +242,7 @@ h1 span {
     }
 }
 
-@media screen and (min-width: 681px) and (max-width: 1279px) {
+@media (min-width: 680px) and (max-width: 959px) {
     #header {
         width: auto;
     }
@@ -285,12 +286,6 @@ h1 span {
     }
 
 }
-@media screen and (min-width: 1280px){
-    body{
-        background-color: aqua;
-    }
-}
-
 
 
 
