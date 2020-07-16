@@ -188,7 +188,7 @@ h1 span {
 }
 
 /*POUR TABLETTE MOBILE*/
-@media screen and (max-width: 680px) {
+@media all and (max-width: 680px) {
     header {
         flex-direction: column;
     }
@@ -241,7 +241,7 @@ h1 span {
     }
 }
 
-@media all and (min-width: 681px){
+@media all and (max-width: 681px){
     #header {
         width: auto;
     }
@@ -284,11 +284,6 @@ h1 span {
         margin-left: 2px;
     }
 
-}
-@media screen and (min-width: 1280px){
-    body{
-        background-color: aqua;
-    }
 }
 
 
