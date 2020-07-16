@@ -19,7 +19,6 @@ h2, h3, p, ul {
 #menu {
     display: flex;
     overflow: hidden;
-    flex-direction: column-reverse;
 }
 
 /*BLOC DE GAUCHE*/
@@ -189,7 +188,7 @@ h1 span {
 }
 
 /*POUR TABLETTE MOBILE*/
-@media all and (max-width: 679px) {
+@media screen and (max-width: 680px) {
     header {
         flex-direction: column;
     }
@@ -242,7 +241,7 @@ h1 span {
     }
 }
 
-@media all (min-width: 680px) and (max-width: 959px) {
+@media all and (min-width: 681px){
     #header {
         width: auto;
     }
@@ -286,6 +285,12 @@ h1 span {
     }
 
 }
+@media screen and (min-width: 1280px){
+    body{
+        background-color: aqua;
+    }
+}
+
 
 
 
