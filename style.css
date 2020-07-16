@@ -187,8 +187,8 @@ h1 span {
     justify-content: space-between;
 }
 
-/*POUR TABLETTE ET MOBILE*/
-@media all and (max-width: 680px) {
+/*POUR TABLETTE MOBILE*/
+@media screen and (max-width: 680px) {
     header {
         flex-direction: column;
     }
@@ -241,7 +241,7 @@ h1 span {
     }
 }
 
-@media all and (max-width: 681px) {
+@media screen and (min-width: 681px) and (max-width: 1279px) {
     #header {
         width: auto;
     }
@@ -284,6 +284,11 @@ h1 span {
         margin-left: 2px;
     }
 
+}
+@media screen and (min-width: 1280px){
+    body{
+        background-color: aqua;
+    }
 }
 
 
