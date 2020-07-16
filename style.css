@@ -201,7 +201,7 @@ h1 span {
     }
 
     #menu {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     #menu_left {
