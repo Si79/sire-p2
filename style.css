@@ -169,12 +169,11 @@ h1 span {
 
 .bloc_Pierre {
     display: table-cell;
-    width: calc(30% + 40px);
+    width: calc(30% + 50px);
 }
 
 .bloc_Franck {
-    display: table-cell;
-    padding-left: 30px; 
+    display: table-cell; 
 }
 
 .link {
